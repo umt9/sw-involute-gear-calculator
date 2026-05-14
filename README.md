@@ -1,75 +1,64 @@
-# ⚙️ Gear Generator v2.0.0
+# ⚙️ GearCalculator v3.0.0
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8%2B-green.svg)
-![License](https://img.shields.io/badge/license-MIT-orange.svg)
+![C#](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![WPF](https://img.shields.io/badge/Framework-WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/Integration-SolidWorks-CE2A23?style=for-the-badge&logo=solidworks&logoColor=white)
+![Release](https://img.shields.io/badge/Release-v3.0.0-blue?style=for-the-badge)
 
-**Gear Generator** is a specialized engineering tool designed to simplify the calculation and visualization of involute gears. Built for mechanical engineers, hobbyists, and SolidWorks users, it provides real-time geometry previews and automated equation generation for CAD modeling.
+**GearCalculator** is a modern, standalone desktop application designed for mechanical engineers, CAD designers, and students. Originally built as a Python script, version 3.0.0 has been completely rewritten in C# and WPF to provide a high-performance, real-time vector rendering engine and an advanced Dark Mode UI.
 
----
+It calculates precise gear geometries and automatically generates parametric Involute Curve equations for seamless integration with SolidWorks.
 
-### 🚀 What's New in v2.0.0?
+## 🚀 What's New in v3.0.0? (The C# & WPF Rewrite)
 
-The "Global Release" marks a significant leap from the initial version. 
+- **No Python Environment Required:** The tool is now a compiled, standalone `.exe` application. Just download and run!
+- **Live Vector Preview:** Instantly renders the gear profile in real-time as you type. Features auto-scaling to fit any dimension perfectly without overflowing.
+- **Expanded Gear Types:** Now fully supports **Spur, Helical, Internal, and Bevel gears**.
+- **Faux-3D Helical Shadows:** Dynamically generates a 3D-like depth shadow based on the specified Helix Angle (β).
+- **Advanced Boolean Geometry:** Visually models exact shaft bores, keyways, and even external pipe boundaries for internal gears by subtracting geometries in real-time.
+- **Smart Adaptive UI:** Input fields dynamically hide or show based on the selected gear type (e.g., Shaft details disappear when Internal Gear is selected, replaced by Pipe Outer Diameter).
+- **Culture-Independent Inputs:** Safely parses both dots (`.`) and commas (`,`) for decimal values, preventing regional format crashes.
 
-*   **Global Language Support:** Entire UI and technical documentation migrated to English for international accessibility.
-*   **Integrated Engineering Elements:** Added Bore Diameter and Keyway (Width/Depth) calculations with real-time visual merging.
-*   **Modern UI/UX:** A complete dark-themed dashboard redesign using PyQt6 for a professional look and feel.
-*   **Enhanced Precision:** Improved algorithm for involute curve parameters and SolidWorks equation accuracy.
-*   **Validation Logic:** Integrated strict numeric validation to prevent calculation errors.
+## 📸 Screenshots
 
----
+Here is the professional v3.0.0 interface showcasing live previews of different gear geometries and calculations.
 
-### 🛠 Key Features
+<p align="center">
+  <img src="screenshot/1.jpg" alt="GearCalculator v3.0 Main Interface (English)" width="95%" />
+</p>
+<br>
+<p align="center">
+  <img src="screenshot/2.jpg" alt="Live Preview of Helical Gear with Faux-3D Shadow" width="95%" />
+</p>
+<br>
+<p align="center">
+  <img src="screenshot/3.jpg" alt="Detailed Internal Gear Modeling with Output Data" width="95%" />
+</p>
 
-*   **Real-time Preview:** Visualize your gear as you type. Includes Pitch, Root, and Tip circle displays.
-*   **SolidWorks Integration:** Generates copy-paste ready "Equation-Driven Curve" parameters (X, Y equations).
-*   **Technical Dashboard:** Instant calculation of Pitch Diameter (d), Outside Diameter (da), Root Diameter (df), and Base Diameter (db).
-*   **Keyway & Bore Support:** Specifically designed for shaft-mounted gear modeling.
+## 📊 Core Features
 
----
+* **Instant SolidWorks Equations:** Generates the exact $X(t)$ and $Y(t)$ parametric equations needed to draw a perfect involute tooth profile in SolidWorks.
+* **Detailed Engineering Report:** Outputs Pitch, Outer, Root, and Base diameters, alongside the calculated Pitch ($p$).
+* **Dual Language Support:** Instantly switch between English and Turkish interfaces.
 
-### 📸 Visuals
+## 🛠️ Installation & Usage
 
-| Dashboard View | Technical Preview |
-| :--- | :--- |
-| ![Main UI](screenshots/4.png) | ![Gear Preview](screenshots/5.png) |
+GearCalculator requires no installation or dependencies.
 
----
+1. Go to the **[Releases](../../releases)** page.
+2. Download the latest `ProGearStudio_v3.0.0.zip` (or `GearCalculator_v3.0.0.zip`).
+3. Extract the folder.
+4. Run `GearCalculator.exe` and start designing!
 
-### 💻 Installation
+## 💻 Tech Stack
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/umt9/sw-involute-gear-calculator.git](https://github.com/umt9/sw-involute-gear-calculator.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install PyQt6
-    ```
-3.  **Run the application:**
-    ```bash
-    python "gear-calculator v2.0.0.py"
-    ```
+- **Language:** C#
+- **UI Framework:** WPF (Windows Presentation Foundation)
+- **Rendering Engine:** Native WPF `PathGeometry` & `CombinedGeometry` for real-time Boolean operations.
 
----
+## 🤝 Contributing
 
-### 📐 Usage for SolidWorks
-
-1.  Calculate your gear in the app.
-2.  In SolidWorks, go to **Equation Driven Curve**.
-3.  Copy the **X** and **Y** equations from the "SolidWorks Equation" panel.
-4.  Set the range `t` from `0` to `1`.
-5.  Mirror and pattern the curve to complete your gear tooth profile.
+Contributions, issues, and feature requests are welcome! If you want to add new gear types, export options (like DXF), or CAD macros, feel free to fork the repository and submit a pull request.
 
 ---
-
-### 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-### 🤝 Contact
-
-Project Link: [https://github.com/umt9/sw-involute-gear-calculator](https://github.com/umt9/sw-involute-gear-calculator)
+*Engineered for precision. Built for CAD professionals.*
