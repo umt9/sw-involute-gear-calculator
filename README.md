@@ -24,15 +24,15 @@ It calculates precise gear geometries and automatically generates parametric Inv
 Here is the professional v3.0.0 interface showcasing live previews of different gear geometries and calculations.
 
 <p align="center">
-  <img src="screenshot/1.jpg" alt="GearCalculator v3.0 Main Interface (English)" width="95%" />
+  <img src="screenshots/1.jpg" alt="GearCalculator v3.0 Main Interface (English)" width="95%" />
 </p>
 <br>
 <p align="center">
-  <img src="screenshot/2.jpg" alt="Live Preview of Helical Gear with Faux-3D Shadow" width="95%" />
+  <img src="screenshots/2.jpg" alt="Live Preview of Helical Gear with Faux-3D Shadow" width="95%" />
 </p>
 <br>
 <p align="center">
-  <img src="screenshot/3.jpg" alt="Detailed Internal Gear Modeling with Output Data" width="95%" />
+  <img src="screenshots/3.jpg" alt="Detailed Internal Gear Modeling with Output Data" width="95%" />
 </p>
 
 ## 📊 Core Features
@@ -46,9 +46,8 @@ Here is the professional v3.0.0 interface showcasing live previews of different 
 GearCalculator requires no installation or dependencies.
 
 1. Go to the **[Releases](../../releases)** page.
-2. Download the latest `ProGearStudio_v3.0.0.zip` (or `GearCalculator_v3.0.0.zip`).
-3. Extract the folder.
-4. Run `GearCalculator.exe` and start designing!
+2. Download the latest `GearCalculator_v3.0.0.exe`.
+3. Run `GearCalculator.exe` and start designing!
 
 ## 💻 Tech Stack
 
