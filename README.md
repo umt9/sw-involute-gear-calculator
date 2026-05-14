@@ -23,17 +23,10 @@ It calculates precise gear geometries and automatically generates parametric Inv
 
 Here is the professional v3.0.0 interface showcasing live previews of different gear geometries and calculations.
 
-<p align="center">
-  <img src="screenshots/1.jpg" alt="GearCalculator v3.0 Main Interface (English)" width="95%" />
-</p>
-<br>
-<p align="center">
-  <img src="screenshots/2.jpg" alt="Live Preview of Helical Gear with Faux-3D Shadow" width="95%" />
-</p>
-<br>
-<p align="center">
-  <img src="screenshots/3.jpg" alt="Detailed Internal Gear Modeling with Output Data" width="95%" />
-</p>
+<img width="1822" height="1294" alt="3" src="https://github.com/user-attachments/assets/4d9d6b81-8d80-455d-91f8-523bb91b3acd" />
+<img width="1817" height="1287" alt="2" src="https://github.com/user-attachments/assets/d0fe9afb-51c0-4037-92c4-5335ad583d2c" />
+<img width="1813" height="1283" alt="1" src="https://github.com/user-attachments/assets/8ca0144f-bebb-42ec-80b9-8e5e129e52bd" />
+
 
 ## 📊 Core Features
 
