@@ -36,11 +36,24 @@ Here is the professional v3.0.0 interface showcasing live previews of different 
 
 ## 🛠️ Installation & Usage
 
-GearCalculator requires no installation or dependencies.
+The Windows release includes the .NET runtime.
 
-1. Go to the **[Releases](../../releases)** page.
-2. Download the latest `GearCalculator_v3.0.0.exe`.
-3. Run `GearCalculator.exe` and start designing!
+1. Download [`GearCalculator.exe`](../../releases/download/v3.0.0/GearCalculator.exe) from the [v3.0.0 release](../../releases/tag/v3.0.0).
+2. Run `GearCalculator.exe`.
+
+## Build from source
+
+On Windows, install the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0). From the repository root, run:
+
+```powershell
+dotnet build GearCalculator/GearCalculator.csproj -c Release
+```
+
+To build and launch the application:
+
+```powershell
+dotnet run --project GearCalculator/GearCalculator.csproj -c Release
+```
 
 ## 💻 Tech Stack
 
