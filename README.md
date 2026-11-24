@@ -11,7 +11,7 @@ It calculates precise gear geometries and automatically generates parametric Inv
 
 ## 🚀 What's New in v3.0.0? (The C# & WPF Rewrite)
 
-- **No Python Environment Required:** The tool is now a compiled, standalone `.exe` application. Just download and run!
+- **No Python Environment Required:** The Windows x64 ZIP contains the compiled application and the files it needs to run.
 - **Live Vector Preview:** Instantly renders the gear profile in real-time as you type. Features auto-scaling to fit any dimension perfectly without overflowing.
 - **Expanded Gear Types:** Now fully supports **Spur, Helical, Internal, and Bevel gears**.
 - **Faux-3D Helical Shadows:** Dynamically generates a 3D-like depth shadow based on the specified Helix Angle (β).
@@ -36,10 +36,13 @@ Here is the professional v3.0.0 interface showcasing live previews of different 
 
 ## 🛠️ Installation & Usage
 
-The Windows release includes the .NET runtime.
+The Windows x64 ZIP includes the .NET runtime and the DLLs required to start the application.
 
-1. Download [`GearCalculator.exe`](../../releases/download/v3.0.0/GearCalculator.exe) from the [v3.0.0 release](../../releases/tag/v3.0.0).
-2. Run `GearCalculator.exe`.
+1. Download [`GearCalculator-v3.0.0-win-x64.zip`](../../releases/download/v3.0.0/GearCalculator-v3.0.0-win-x64.zip) from the [v3.0.0 release](../../releases/tag/v3.0.0).
+2. Extract the entire ZIP to a folder.
+3. Run `GearCalculator.exe` from the extracted folder with the DLLs beside it.
+
+**Türkçe:** ZIP dosyasının tamamını bir klasöre çıkarın ve `GearCalculator.exe` dosyasını DLL’lerle aynı klasörden çalıştırın.
 
 ## Build from source
 
